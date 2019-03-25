@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+    align-items: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    background:#009ff0;
+  }
+  
+  .header h1 {
+    font-size: 75px;
+    font-family: 'Srisakdi', cursive;
+     }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #099ff0;
+    color: black;
+  }
+  
+  
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #363636;
+    padding-left: 20px;
+  }
+  
+  
+  .fakeimg {
+    background-color: #099ff0;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  
+  .card {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 0px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #099ff0;
+    color: white;
+  }
+  
+  
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+
+  .img {
+  height: 350px;
+}
+ 
+.leftcolumn {
+  padding: 0%
+}
+
+p1 {
+  font-size: 25px
+}
+
+p1 {
+  font-family: 'Times New Roman', Times, serif
+}
+
+p {
+  font-size: 15px
+}
+
+.fakeimg {
+align-content: center
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+
+
+h1 {
+  font-family: 'Lilita One', cursive;
+}
+
+h1 {
+  font-style: italic
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #099ff0;
+  color: #000000;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+
+
+p1 {
+ text-align: right
+}
+
+p1 {
+  text-emphasis-color: #000000
+}
+
+p {
+  text-align: center
+}
+
+h6 {
+  text-align: center
+}
+
+w3-third {
+  image-orientation: 90turn
+}
+
+  
+  
+
